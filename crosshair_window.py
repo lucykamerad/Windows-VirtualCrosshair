@@ -28,8 +28,9 @@ class CrosshairOverlay(QWidget):
 
     def center_on_screen(self):
         screen = QGuiApplication.primaryScreen().geometry()
-        # Keep window size slightly larger than max crosshair size to allow drawing
-        window_size = 200
+        # Must fit the largest crosshair: size slider max (100) * 2 plus the
+        # line thickness (max 20), otherwise the edges get clipped
+        window_size = 240
         self.setGeometry(
             (screen.width() - window_size) // 2,
             (screen.height() - window_size) // 2,

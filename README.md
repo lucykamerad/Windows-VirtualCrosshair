@@ -2,8 +2,6 @@
 
 A sleek, premium, and lightweight crosshair overlay app for Windows, built with Python and PyQt6.
 
-![Crosshair Preview](https://via.placeholder.com/200x200?text=Virtual+Crosshair)
-
 note that the crosshair (as far as i tested) was NOT detected by anticheats but not too sure, use it at your own risks
 
 ## Features
@@ -18,8 +16,8 @@ note that the crosshair (as far as i tested) was NOT detected by anticheats but 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/VirtualCrosshair.git
-   cd VirtualCrosshair
+   git clone https://github.com/lucykamerad/Windows-VirtualCrosshair.git
+   cd Windows-VirtualCrosshair
    ```
 
 2. **Install dependencies**:
